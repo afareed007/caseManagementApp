@@ -1,0 +1,24 @@
+template(name="index")
+    .uk-container.uk-container-center.uk-margin-top.uk-margin-large-bottom
+        .uk-grid(style="margin-top:30px;")
+            .uk-width-2-10
+                .ui.vertical.menu
+                    a.item
+                        h3.ui.header Cases
+                        p List of Cases
+                    a.item
+                        h3.ui.header Tasks
+                        p Tasks assigned to me and that are related to my cases.
+                    a.item
+                        h3.ui.header Notes
+                        p Notes that relates to my tasks and cases.
+                    a.item
+                        h3.ui.header Messages
+                        p Receive and send messages.
+            .uk-grid.uk-grid-divider
+                .uk-width-7-10
+                    .uk-panel
+                        +description
+                .uk-width-3-10
+                    .uk-panel
+                        +actionBar

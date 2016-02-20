@@ -1,0 +1,60 @@
+/
+  (?:                           # Group
+    (                   \1        # Capturing group
+      ['"]                          # Quotation mark
+    )
+    \1                            # Previous quotation mark
+  |                             # Or
+    (                   \2        # Capturing group
+      ['"]                          # Quotation mark
+    )
+    .*?                           # Lazy zero or more characters
+    [^\\]                         # Any character except backslash
+    \2                            # Previous quotation mark
+  )
+|                             # Or
+  (                     \3      # Capturing group
+    !?                            # Zero or one exclamation mark
+    =?                            # Zero or one equals sign
+    [$=]                          # One dollar sign or equals sign
+  )
+  (                     \4      # Capturing group
+    (?:                           # Optional group
+      \.{1,2}                       # One or two periods
+      \/                            # One slash
+    )?
+    [\w\.-]+                      # One or more characters
+  )
+  \(                            # Start parenthesis
+  (                     \5      # Capturing group
+    (?:                           # Zero or more of group
+      (                 \6          # Capturing group
+        ['"]                          # Quotation mark
+      )
+      \6                            # Previous quotation mark
+    |                             # Or
+      (                 \7          # Capturing group
+        ['"]                          # Quotation mark
+      )
+      .*?                           # Lazy zero or more characters
+      [^\\]                         # Any character except backslash
+      \7                            # Previous quotation mark
+    |                             # Or
+      [^)]*?                        # Lazy zero or more characters except end parenthesis
+      (                 \8          # Capturing group
+        ['"]                          # Quotation mark
+      )
+      \8                            # Previous quotation mark
+    |                             # Or
+      [^)]*?                         # Lazy zero or more characters except end parenthesis
+      (                 \9          # Capturing group
+        ['"]                          # Quotation mark
+      )
+      .*?                           # Lazy zero or more characters
+      [^\\]                         # Any character except backslash
+      \9                            # Previous quotation mark
+    )*
+    [^)]*                         # Zero or more characters except end parenthesis
+  )
+  \)                            # End parenthesis
+/g

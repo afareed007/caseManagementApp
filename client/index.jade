@@ -1,21 +1,23 @@
-template(name="index")
-    .ui.stackable.grid.container(style="margin-top:30px;")
+template(name="Index")
+    .ui.stackable.grid.container(style="margin-top:50px;")
         .ui.vertical.menu.four.wide.column
-            a.item
+            a.item($b('mouseover: aCases'))
                 h3.ui.header Cases
                 p List of Cases
-            a.item
+            a.item($b('mouseover: aTasks'))
                 h3.ui.header Tasks
                 p Tasks assigned to me and that are related to my cases.
-            a.item
+            a.item($b('mouseover: aNotes'))
                 h3.ui.header Notes
                 p Notes that relates to my tasks and cases.
-            a.item
+            a.item($b('mouseover: aMsgs'))
                 h3.ui.header Messages
                 p Receive and send messages.
+            a.item($b('mouseover: aContacts'))
+                h3.ui.header Contacts
+                p My Contacts List, Case and Tasks related contacts
         .twelve.wide.column
-            +description
-            +actionBar
+            +CPanel
     //.uk-width-1-10
     //    .uk-panel
     //        +actionBar

@@ -1,16 +1,11 @@
-template(name='description')
-    //if cases then display cases template
-    +aCases
-template(name='actionBar')
-    h3  Action Bar for Cases/Tasks/Notes/Messages Details
-    h3  Information
-    p   Date Created
-    p   Created By
-    p   Last Updated
-    p   Next Update Due
-    p   Owned By
-    p   Assignees
-    p   Shared to
-    p   Contacts Lists
-    p   Related Notes
-    p   Tags
+template(name='CPanel')
+    div($b('if: aCases'))
+        +AllCasesList
+    div($b('if: aTasks'))
+        +AllTasksList
+    div($b('if: aNotes'))
+        +AllNotesList
+    div($b('if: aMsgs'))
+        +AllMsgs
+    div($b('if: aContacts'))
+        +AllContacts

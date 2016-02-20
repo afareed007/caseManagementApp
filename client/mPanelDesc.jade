@@ -1,0 +1,115 @@
+template(name='CaseDescription')
+    .ui.pointing.menu
+        a.active.item
+            | Description
+        a.item
+            | Tasks
+        a.item
+            | Notes
+        a.item
+            | Documents
+    .ui.segment(style="min-height:300px")
+        h3  Cases/Tasks/Notes/Messages Details Panel
+        p Test Description
+    +ActionBar
+template(name='ActionBar')
+    h3  Action Bar for Cases/Tasks/Notes/Messages Details
+    h3  Information
+    p   Date Created
+    p   Created By
+    p   Last Updated
+    p   Next Update Due
+    p   Owned By
+    p   Assignees
+    p   Shared to
+    p   Contacts Lists
+    p   Related Notes
+    p   Tags
+template(name='AllCasesList')
+    .ui.segment(style="min-height:500px; margin-top:-15px;")
+        .ui.pointing.menu
+            a.active.item
+                | Open Cases
+            a.item
+                | All Cases
+            a.item
+                | Closed Cases
+            a.item
+                | Archived
+            a.item
+                | Create
+        .ui.grid.stackable
+            .sixteen.wide.column
+                h1  Main List of Cases
+                p   Cases/Tasks/Notes/Messages Details Panel
+template(name='AllTasksList')
+    .ui.segment(style="min-height:500px; margin-top:-15px;")
+        .ui.pointing.menu
+            a.active.item
+                | Open Tickets
+            a.item
+                | All Tickets
+            a.item
+                | Closed Tickets
+            a.item
+                | Archived
+            a.item
+                | Create
+        .ui.grid.stackable
+            .sixteen.wide.column
+                h1  Main List of Tasks
+                p   Cases/Tasks/Notes/Messages Details Panel
+template(name='AllNotesList')
+    .ui.segment(style="min-height:500px; margin-top:-15px;")
+        .ui.pointing.menu
+            a.active.item
+                | My Notes
+            a.item
+                | Case Notes
+            a.item
+                | Shared
+            a.item
+                | Archive
+            a.item
+                | Create
+        .ui.grid.stackable
+            .sixteen.wide.column
+                h1  Main List of Notes
+                p   Cases/Tasks/Notes/Messages Details Panel
+template(name='AllMsgs')
+    .ui.segment(style="min-height:500px; margin-top:-15px;")
+        .ui.pointing.menu
+            a.active.item
+                | Inbox
+            a.item
+                | Sent
+            a.item
+                | Drafts
+            a.item
+                | Archived
+            a.item
+                | Create
+        .ui.grid.stackable
+            .sixteen.wide.column
+                h1  Main List of Messages
+                p   Cases/Tasks/Notes/Messages Details Panel
+template(name='AllContacts')
+    .ui.segment(style="min-height:500px; margin-top:-15px;")
+        .ui.pointing.menu
+            a.active.item
+                | My Book
+            a.item
+                | from Tasks
+            a.item
+                | from Cases
+            a.item
+                | Create
+            //.right.menu
+            //    .item
+            //        .ui.transparent.icon.input
+            //            input(type='text', placeholder='Search...')
+            //            i.search.link.icon
+        .ui.grid.stackable
+            .sixteen.wide.column
+                h1  Main List of Messages
+                p   Cases/Tasks/Notes/Messages Details Panel

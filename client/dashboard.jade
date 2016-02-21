@@ -9,3 +9,17 @@ template(name='CPanel')
         +AllMsgs
     div($b('if: aContacts'))
         +AllContacts
+template(name='modal')
+    .ui.modal
+        i.close.icon
+        .header
+            | Modal Title
+        .image.content
+            .image
+                | An image can appear on left or an icon
+            .description
+                | A description can appear on the right
+        .actions
+            .ui.button Cancel
+            .ui.button OK
+

@@ -1,6 +1,7 @@
 Template.Index.viewmodel({
     //showCases: 'hello',
     aCases: function () {
+        //$('.ui.modal').modal('show');
         Session.set("cPanelContent", "CasesList")
     },
     aTasks: function () {

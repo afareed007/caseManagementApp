@@ -212,6 +212,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_collection_notFound/notFound.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/packages/spacebars-compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_subscriptions/main.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/meteorhacks_subs-manager/1.6.3/web.browser/lib/sub_manager.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/packages/spacebars.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/packages/ordered-dict.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
@@ -464,6 +465,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_collection_notFound/notFound.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/packages/spacebars-compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/msavin_mongol/1.6.2/web.browser/client/row_subscriptions/main.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/meteorhacks_subs-manager/1.6.3/web.browser/lib/sub_manager.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/packages/spacebars.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/packages/ordered-dict.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />

@@ -12,12 +12,14 @@ template(name='defaultHeader')
                         a.uk-hidden-small(href='/') Case Manager
                 .uk-navbar-flip
                     ul.uk-navbar-nav
-                        li.uk-parent.uk-active(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
-                            a(href='/') Home
+                        //li.uk-parent.uk-active(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
+                        //    a(href='/') Home
                         li.uk-parent(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
                             a(href='/aCases') Cases
                             .uk-dropdown.uk-dropdown-navbar.uk-dropdown-bottom(style='top: 40px; left: 0px;')
                                 ul.uk-nav.uk-nav-navbar
+                                    .uk.uk-nav-header
+                                        |   Cases
                                     li
                                         a(href='/oCases') Open Cases
                                     li
@@ -26,36 +28,30 @@ template(name='defaultHeader')
                                         a(href='/aCases') All Cases
                                     li
                                         a(href='/caCase') Creat a Case
-                        li.uk-parent(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
-                            a(href='/oTasks') Tasks
-                            .uk-dropdown.uk-dropdown-navbar.uk-dropdown-bottom(style='top: 40px; left: 0px;')
-                                ul.uk-nav.uk-nav-navbar
+                                    .uk.uk-nav-header
+                                        |   Tasks
                                     li
                                         a(href='/oTasks') Open Tasks
                                     li
                                         a(href='/aTasks') All Tasks
                                     li
                                         a(href='/caTask') Create a Task
-                        li.uk-parent(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
-                            a(href='/newNotes') Notes
-                            .uk-dropdown.uk-dropdown-navbar.uk-dropdown-bottom(style='top: 40px; left: 0px;')
-                                ul.uk-nav.uk-nav-navbar
+                                    .uk.uk-nav-header
+                                        |   Notes
                                     li
                                         a(href='/newNotes') My Notes
                                     li
                                         a(href='/allNotes') All Notes
                                     li
                                         a(href='/caNote') Add a Note
-                        li.uk-parent(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
-                            a(href='/newNotes') Contacts
-                                .uk-dropdown.uk-dropdown-navbar.uk-dropdown-bottom(style='top: 40px; left: 0px;')
-                                    ul.uk-nav.uk-nav-navbar
-                                        li
-                                            a(href='/myContacts') My Contacts
-                                        li
-                                            a(href='/allContacts') All Contacts
-                                        li
-                                            a(href='/caContact') Create a Contact
+                                    .uk.uk-nav-header
+                                        |   Contacts
+                                    li
+                                        a(href='/myContacts') My Contacts
+                                    li
+                                        a(href='/allContacts') All Contacts
+                                    li
+                                        a(href='/caContact') Create a Contact
                         li.uk-parent(data-uk-dropdown='', aria-haspopup='true', aria-expanded='false')
                             a(href='/caCase') Create
                             .uk-dropdown.uk-dropdown-navbar.uk-dropdown-bottom(style='top: 40px; left: 0px;')

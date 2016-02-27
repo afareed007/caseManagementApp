@@ -93,6 +93,9 @@ template(name='AllMsgs')
             .sixteen.wide.column
                 h1  Main List of Messages
                 p   Cases/Tasks/Notes/Messages Details Panel
+        .ui.grid.stackable
+            .sixteen.wide.column
+                +MsgsList
 template(name='AllContacts')
     .ui.segment(style="min-height:500px; margin-top:-15px;")
         .ui.pointing.menu

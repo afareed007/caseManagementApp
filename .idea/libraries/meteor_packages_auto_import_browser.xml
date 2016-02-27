@@ -109,11 +109,14 @@
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/client/templates_helpers/at_input.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/client/main.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/packages/fastclick.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/dist/underscore.string.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/client/client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/meteor-pre.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/core.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/config/config.css" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.0.7/web.browser/packages/ejson.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/config/config.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/meteor-post.js" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.13.1/web.browser/lib/templates_helpers/at_signup_link.js" />
         <item url="file://$USER_HOME$/.meteor/packages/meteortoys_throttle/2.1.0/web.browser/client/main.css" />
         <item url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.13.1/web.browser/lib/templates_helpers/at_input.js" />
@@ -252,6 +255,10 @@
         <item url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete/uikit-complete/css/components/dotnav.css" />
         <item url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete/uikit-complete/css/uikit.css" />
         <item url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/transpilers.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/parser.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/lexer.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/exports.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
@@ -362,11 +369,14 @@
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/client/templates_helpers/at_input.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/client/main.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/packages/fastclick.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/dist/underscore.string.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/client/client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/meteor-pre.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_flow-routing/1.13.1/web.browser/lib/core.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/config/config.css" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.0.7/web.browser/packages/ejson.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_sub/2.1.0/web.browser/config/config.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/underscorestring_underscore.string/3.2.3/web.browser/meteor-post.js" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.13.1/web.browser/lib/templates_helpers/at_signup_link.js" />
       <root url="file://$USER_HOME$/.meteor/packages/meteortoys_throttle/2.1.0/web.browser/client/main.css" />
       <root url="file://$USER_HOME$/.meteor/packages/useraccounts_core/1.13.1/web.browser/lib/templates_helpers/at_input.js" />
@@ -505,6 +515,10 @@
       <root url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete/uikit-complete/css/components/dotnav.css" />
       <root url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete/uikit-complete/css/uikit.css" />
       <root url="file://$USER_HOME$/.meteor/packages/coffeejesus_uikit-complete/0.0.12/web.browser/packages/coffeejesus_uikit-complete.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/transpilers.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/parser.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/lexer.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/dalgard_jade-compiler/0.5.4_1/web.browser/lib/exports.js" />
     </CLASSES>
     <SOURCES />
   </library>

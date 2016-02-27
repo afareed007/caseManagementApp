@@ -1,0 +1,51 @@
+template(name="MsgsList")
+    .ui.grid.stackable
+        .seven.wide.column
+            h1  Contacts List
+            .ui.relaxed.divided.list
+                .item($b('click: showContactDetails'))
+                    i.large.user.middle.aligned.icon
+                    .content
+                        a.header Ahmed Fareed
+                        .description Founder of TechChaps
+                .item($b('click: showContactDetails'))
+                    i.large.user.middle.aligned.icon
+                    .content
+                        a.header
+                            div($b('text: myName'))
+                        .description email: {{userPrimaryEmail}}
+                .item($b('click: showContactDetails'))
+                    i.large.github.middle.aligned.icon
+                    .content
+                        a.header Semantic-Org/Semantic-UI-Meteor
+                        .description Updated 34 mins ago
+
+        .ui.vertical.divider
+        .eight.wide.column
+            p Contact details below. Select a Contact.
+            h4  Contact Details:
+            br
+            hr
+            p Message details below. Select a Message
+            h5  From
+            h5  To
+            h5  Subject
+            a(style="margin-right: 3%" $b('click: addToTask'))
+                | Add to a Task or a Case
+            br
+            div($b('if: showAddTask'))
+                br
+                p Add To a Task:
+                    input(placeholder=" Name of a Task")
+                p Add to a Case
+                    input(placeholder=" Name of a Case")
+            br
+            br
+            b  Cases/Tasks Related to
+            li
+                a   Case 1
+            li
+                a   Task n
+    br
+    br
+    br

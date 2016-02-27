@@ -1,30 +1,34 @@
 template(name='ContactsList')
-    .ui.grid.stackable
-        .ten.wide.column
-            h1  Contacts List
-            .ui.relaxed.divided.list
-                .item
-                    i.large.user.middle.aligned.icon
-                    .content
-                        a.header Ahmed Fareed
-                        .description Founder of TechChaps
-                .item
-                    i.large.user.middle.aligned.icon
-                    .content
-                        a.header
-                            div($b('text: myName'))
-                        .description email: {{userPrimaryEmail}}
-                .item
-                    i.large.github.middle.aligned.icon
-                    .content
-                        a.header Semantic-Org/Semantic-UI-Meteor
-                        .description Updated 34 mins ago
-
-        .ui.vertical.divider
-        .six.wide.column
-            h1  Main List of Messages
-            p   Cases/Tasks/Notes/Mes
-            h1  Main List of Messages
-            p   Cases/Tasks/Notes/Mes
-            h1  Main List of Messages
-            p   Cases/Tasks/Notes/Mes
+    h1  Contacts List
+    .ui.relaxed.divided.list
+        .item($b('click: showContactDetails'))
+            i.large.user.middle.aligned.icon
+            //.ui.inverted.segment(style="width:100%")
+            .ui.block
+                .ui.inverted.red.small.statistic
+                    .value AF
+            .content
+                a.header Ahmed Fareed
+                .description Founder of TechChaps
+        .item($b('click: showContactDetails'))
+            i.large.user.middle.aligned.icon
+            .content
+                a.header
+                    div($b('text: myName'))
+                .description email: {{userPrimaryEmail}}
+        .item($b('click: showContactDetails'))
+            i.large.github.middle.aligned.icon
+            .content
+                a.header Semantic-Org/Semantic-UI-Meteor
+                .description Updated 34 mins ago
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br
+    br

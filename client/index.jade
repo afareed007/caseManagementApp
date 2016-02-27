@@ -1,19 +1,19 @@
 template(name="Index")
     .ui.stackable.grid.container(style="margin-top:50px;")
         .ui.vertical.menu.four.wide.column
-            a.item($b('mouseover: aCases'))
+            a.item($b('click: aCases'))
                 h3.ui.header Cases
                 p List of Cases
-            a.item($b('mouseover: aTasks'))
+            a.item($b('click: aTasks'))
                 h3.ui.header Tasks
                 p Tasks assigned to me and that are related to my cases.
-            a.item($b('mouseover: aNotes'))
+            a.item($b('click: aNotes'))
                 h3.ui.header Notes
                 p Notes that relates to my tasks and cases.
-            a.item($b('mouseover: aMsgs'))
+            a.item($b('click: aMsgs'))
                 h3.ui.header Messages
                 p Receive and send messages.
-            a.item($b('mouseover: aContacts'))
+            a.item($b('click: aContacts'))
                 h3.ui.header Contacts
                 p My Contacts List, Case and Tasks related contacts
         .twelve.wide.column
